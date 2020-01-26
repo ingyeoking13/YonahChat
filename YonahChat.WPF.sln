@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.WPF.Core", "YonahChat.WPF.Core\YonahChat.WPF.Core.csproj", "{FE525DC4-F905-4BD5-9960-CDF3CC68DB64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.WPF.Main", "YonahChat.WPF.Main\YonahChat.WPF.Main.csproj", "{C5F82B59-6DCE-47B4-9DDB-EB943917B5AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.WPF.Modules.Login", "YonahChat.WPF.Modules\YonahChat.WPF.Modules.Login\YonahChat.WPF.Modules.Login.csproj", "{3D7B5CB7-CA0D-4EC3-976A-192212B63A55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{72C79A91-856D-4C3A-AAFC-7E4606C95F2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE525DC4-F905-4BD5-9960-CDF3CC68DB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE525DC4-F905-4BD5-9960-CDF3CC68DB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE525DC4-F905-4BD5-9960-CDF3CC68DB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE525DC4-F905-4BD5-9960-CDF3CC68DB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F82B59-6DCE-47B4-9DDB-EB943917B5AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F82B59-6DCE-47B4-9DDB-EB943917B5AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F82B59-6DCE-47B4-9DDB-EB943917B5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F82B59-6DCE-47B4-9DDB-EB943917B5AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7B5CB7-CA0D-4EC3-976A-192212B63A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7B5CB7-CA0D-4EC3-976A-192212B63A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7B5CB7-CA0D-4EC3-976A-192212B63A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7B5CB7-CA0D-4EC3-976A-192212B63A55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D7B5CB7-CA0D-4EC3-976A-192212B63A55} = {72C79A91-856D-4C3A-AAFC-7E4606C95F2E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A39A1CE-7D26-48E2-98CB-1BB688E6F249}
+	EndGlobalSection
+EndGlobal
