@@ -4,20 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C5F82B59-6DCE-47B4-9DDB-EB943917B5AB}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>YonahChat.WPF.Main</RootNamespace>
-    <AssemblyName>YonahChat.WPF.Main</AssemblyName>
+    <ProjectGuid>{428D88A4-2B5D-4420-9073-FA07DE5DA7FB}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <RootNamespace>YonahChat.WPF.Styles</RootNamespace>
+    <AssemblyName>YonahChat.WPF.Styles</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -27,7 +24,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -50,25 +46,6 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-  </ItemGroup>
-  <ItemGroup>
-    <ApplicationDefinition Include="App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </ApplicationDefinition>
-    <Page Include="Views\MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Compile Include="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="ViewModels\MainWindowViewModel.cs" />
-    <Compile Include="Views\MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -94,24 +71,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Prism.Core">
-      <Version>7.2.0.1422</Version>
-    </PackageReference>
-    <PackageReference Include="Prism.Unity" Version="7.2.0.1367" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\YonahChat.WPF.Core\YonahChat.WPF.Core.csproj">
-      <Project>{fe525dc4-f905-4bd5-9960-cdf3cc68db64}</Project>
-      <Name>YonahChat.WPF.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\YonahChat.WPF.Modules\YonahChat.WPF.Modules.Login\YonahChat.WPF.Modules.Login.csproj">
-      <Project>{3D7B5CB7-CA0D-4EC3-976A-192212B63A55}</Project>
-      <Name>YonahChat.WPF.Modules.Login</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\YonahChat.WPF.Styles\YonahChat.WPF.Styles\YonahChat.WPF.Styles.csproj">
-      <Project>{428d88a4-2b5d-4420-9073-fa07de5da7fb}</Project>
-      <Name>YonahChat.WPF.Styles</Name>
-    </ProjectReference>
+    <Page Include="Buttons\Yonah.Button.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="YonahChat.WPF.Styles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

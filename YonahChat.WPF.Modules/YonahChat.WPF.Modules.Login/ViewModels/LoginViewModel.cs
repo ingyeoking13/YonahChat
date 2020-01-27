@@ -2,7 +2,7 @@
 
 namespace YonahChat.WPF.Modules.Login.ViewModels
 {
-    public class ViewAViewModel : BindableBase
+    public class LoginViewModel : BindableBase
     {
         private string _message;
         public string Message
@@ -11,7 +11,7 @@ namespace YonahChat.WPF.Modules.Login.ViewModels
             set { SetProperty(ref _message, value); }
         }
 
-        public ViewAViewModel()
+        public LoginViewModel()
         {
             Message = "View A from your Prism Module";
         }
