@@ -49,6 +49,7 @@
                 HorizontalAlignment="Stretch"
                 VerticalAlignment="Stretch"
                 Background="Azure"
+                Command="{Binding CLoginBtnClick}"
                 Content="HI"
                 Style="{DynamicResource RoundedShadowButton}" />
         </Grid>

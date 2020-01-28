@@ -3,6 +3,8 @@ using Prism.Ioc;
 using Prism.Modularity;
 using System.Windows;
 using YonahChat.WPF.Modules.Login;
+using Prism.Events;
+using YonahChat.WPF.Modules.YonahMain.Views;
 
 namespace YonahChat.WPF.Main
 {
@@ -15,7 +17,8 @@ namespace YonahChat.WPF.Main
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-
+            containerRegistry.RegisterSingleton<EventAggregator>();
+            containerRegistry.RegisterForNavigation<YonahMainView>();
         }
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)

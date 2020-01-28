@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Styles", "Styles", "{719BB5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.WPF.Styles", "YonahChat.WPF.Styles\YonahChat.WPF.Styles\YonahChat.WPF.Styles.csproj", "{428D88A4-2B5D-4420-9073-FA07DE5DA7FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.WPF.Modules.YonahMain", "YonahChat.WPF.Modules.YonahMain\YonahChat.WPF.Modules.YonahMain.csproj", "{08304494-BF41-4F14-8398-A4E9EB3CDE8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{428D88A4-2B5D-4420-9073-FA07DE5DA7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{428D88A4-2B5D-4420-9073-FA07DE5DA7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{428D88A4-2B5D-4420-9073-FA07DE5DA7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08304494-BF41-4F14-8398-A4E9EB3CDE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08304494-BF41-4F14-8398-A4E9EB3CDE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08304494-BF41-4F14-8398-A4E9EB3CDE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08304494-BF41-4F14-8398-A4E9EB3CDE8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3D7B5CB7-CA0D-4EC3-976A-192212B63A55} = {72C79A91-856D-4C3A-AAFC-7E4606C95F2E}
 		{428D88A4-2B5D-4420-9073-FA07DE5DA7FB} = {719BB5BF-BF4B-4AF7-AABE-C4CF8E4EA515}
+		{08304494-BF41-4F14-8398-A4E9EB3CDE8E} = {72C79A91-856D-4C3A-AAFC-7E4606C95F2E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A39A1CE-7D26-48E2-98CB-1BB688E6F249}

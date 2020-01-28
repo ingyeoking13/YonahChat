@@ -104,6 +104,10 @@
       <Project>{fe525dc4-f905-4bd5-9960-cdf3cc68db64}</Project>
       <Name>YonahChat.WPF.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\YonahChat.WPF.Modules.YonahMain\YonahChat.WPF.Modules.YonahMain.csproj">
+      <Project>{08304494-BF41-4F14-8398-A4E9EB3CDE8E}</Project>
+      <Name>YonahChat.WPF.Modules.YonahMain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\YonahChat.WPF.Modules\YonahChat.WPF.Modules.Login\YonahChat.WPF.Modules.Login.csproj">
       <Project>{3D7B5CB7-CA0D-4EC3-976A-192212B63A55}</Project>
       <Name>YonahChat.WPF.Modules.Login</Name>
