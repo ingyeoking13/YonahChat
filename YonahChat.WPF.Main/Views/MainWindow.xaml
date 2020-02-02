@@ -9,6 +9,6 @@
     Height="350"
     prism:ViewModelLocator.AutoWireViewModel="True">
     <Grid>
-        <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}" />
+        <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.RootContentRegion}" />
     </Grid>
 </Window>

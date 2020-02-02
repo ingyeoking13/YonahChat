@@ -49,6 +49,10 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\IChatListDataService.cs" />
+    <Compile Include="Menus\ChatListTab.xaml.cs">
+      <DependentUpon>ChatListTab.xaml</DependentUpon>
+    </Compile>
     <Compile Include="YonahMainModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -77,8 +81,17 @@
     </None>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\YonahChat.WPF.Core\YonahChat.WPF.Core.csproj">
+      <Project>{FE525DC4-F905-4BD5-9960-CDF3CC68DB64}</Project>
+      <Name>YonahChat.WPF.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Menus\ChatListTab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\YonahMainView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -90,5 +103,6 @@
     </PackageReference>
     <PackageReference Include="Prism.Wpf" Version="7.2.0.1367" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

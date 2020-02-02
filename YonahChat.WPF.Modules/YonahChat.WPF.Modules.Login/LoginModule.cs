@@ -16,7 +16,7 @@ namespace YonahChat.WPF.Modules.Login
         }
         public void OnInitialized(IContainerProvider containerProvider)
         {
-            _regionManager.RegisterViewWithRegion(RegionNames.ContentRegion, typeof(LoginView));
+            _regionManager.RegisterViewWithRegion(RegionNames.RootContentRegion, typeof(LoginView));
  
         }
 
