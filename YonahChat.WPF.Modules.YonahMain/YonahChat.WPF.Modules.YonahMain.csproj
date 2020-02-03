@@ -49,7 +49,6 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\IChatListDataService.cs" />
     <Compile Include="Menus\ChatListTab.xaml.cs">
       <DependentUpon>ChatListTab.xaml</DependentUpon>
     </Compile>
@@ -82,9 +81,17 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\YonahChat.WPF.Business\YonahChat.WPF.Business.csproj">
+      <Project>{00101D0E-E2FE-4BFB-878E-543C5528060B}</Project>
+      <Name>YonahChat.WPF.Business</Name>
+    </ProjectReference>
     <ProjectReference Include="..\YonahChat.WPF.Core\YonahChat.WPF.Core.csproj">
       <Project>{FE525DC4-F905-4BD5-9960-CDF3CC68DB64}</Project>
       <Name>YonahChat.WPF.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YonahChat.WPF.Services.Interface\YonahChat.WPF.Services.Interface.csproj">
+      <Project>{F368C5F7-BCEB-478C-879D-7388551886A6}</Project>
+      <Name>YonahChat.WPF.Services.Interface</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -103,6 +110,8 @@
     </PackageReference>
     <PackageReference Include="Prism.Wpf" Version="7.2.0.1367" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

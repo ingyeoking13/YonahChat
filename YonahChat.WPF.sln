@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.WPF.Modules.Yonah
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.WPF.Business", "YonahChat.WPF.Business\YonahChat.WPF.Business.csproj", "{00101D0E-E2FE-4BFB-878E-543C5528060B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.WPF.Services", "YonahChat.WPF.Services\YonahChat.WPF.Services.csproj", "{9E48CB39-BE8C-4995-92F2-CC36131708DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.WPF.Services.Interface", "YonahChat.WPF.Services.Interface\YonahChat.WPF.Services.Interface.csproj", "{F368C5F7-BCEB-478C-879D-7388551886A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,14 @@ Global
 		{00101D0E-E2FE-4BFB-878E-543C5528060B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00101D0E-E2FE-4BFB-878E-543C5528060B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00101D0E-E2FE-4BFB-878E-543C5528060B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E48CB39-BE8C-4995-92F2-CC36131708DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E48CB39-BE8C-4995-92F2-CC36131708DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E48CB39-BE8C-4995-92F2-CC36131708DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E48CB39-BE8C-4995-92F2-CC36131708DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F368C5F7-BCEB-478C-879D-7388551886A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F368C5F7-BCEB-478C-879D-7388551886A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F368C5F7-BCEB-478C-879D-7388551886A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F368C5F7-BCEB-478C-879D-7388551886A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
