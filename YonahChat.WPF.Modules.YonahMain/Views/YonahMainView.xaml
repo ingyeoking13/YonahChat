@@ -13,22 +13,15 @@
     mc:Ignorable="d">
     <Grid Background="Azure">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition />
+            <ColumnDefinition Width="0.5*" />
             <ColumnDefinition Width="auto" />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <ContentControl prism:RegionManager.RegionContext="{x:Static core:RegionNames.ChatListRegion}" />
+        <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ChatListRegion}" />
         <GridSplitter
             Grid.Column="1"
             Width="5"
             HorizontalAlignment="Center"
             VerticalAlignment="Stretch" />
-
-        <TextBlock
-            Grid.Column="2"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center"
-            Text="{Binding Message}" />
     </Grid>
-
 </UserControl>

@@ -5,6 +5,7 @@ using System.Windows;
 using YonahChat.WPF.Modules.Login;
 using Prism.Events;
 using YonahChat.WPF.Modules.YonahMain.Views;
+using YonahChat.WPF.Modules.YonahMain;
 
 namespace YonahChat.WPF.Main
 {
@@ -25,6 +26,7 @@ namespace YonahChat.WPF.Main
         {
             base.ConfigureModuleCatalog(moduleCatalog);
             moduleCatalog.AddModule<LoginModule>();
+            moduleCatalog.AddModule<YonahMainModule>();
         }
     }
 }

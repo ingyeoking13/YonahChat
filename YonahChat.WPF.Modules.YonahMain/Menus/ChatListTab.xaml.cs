@@ -5,12 +5,10 @@ namespace YonahChat.WPF.Modules.YonahMain.Menus
 {
     public partial class ChatListTab : UserControl
     {
-        private readonly IChatListService _chatListDataService;
-        public ChatListTab(IChatListService chatListDataService)
+
+        public ChatListTab()
         {
             InitializeComponent();
-            _chatListDataService = chatListDataService;
-
         }
     }
 }

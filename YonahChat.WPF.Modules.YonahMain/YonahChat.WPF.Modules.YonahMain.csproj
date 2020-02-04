@@ -52,6 +52,7 @@
     <Compile Include="Menus\ChatListTab.xaml.cs">
       <DependentUpon>ChatListTab.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\ChatListViewModel.cs" />
     <Compile Include="YonahMainModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -92,6 +93,10 @@
     <ProjectReference Include="..\YonahChat.WPF.Services.Interface\YonahChat.WPF.Services.Interface.csproj">
       <Project>{F368C5F7-BCEB-478C-879D-7388551886A6}</Project>
       <Name>YonahChat.WPF.Services.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YonahChat.WPF.Services\YonahChat.WPF.Services.csproj">
+      <Project>{9E48CB39-BE8C-4995-92F2-CC36131708DE}</Project>
+      <Name>YonahChat.WPF.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\YonahChat.WPF.Business\YonahChat.WPF.Business.csproj" />
+    <ProjectReference Include="..\YonahChat.WPF.Services.Interface\YonahChat.WPF.Services.Interface.csproj" />
+  </ItemGroup>
+
 </Project>
