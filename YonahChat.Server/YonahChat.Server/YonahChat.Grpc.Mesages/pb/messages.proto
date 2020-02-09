@@ -1,8 +1,16 @@
 syntax = "proto3";
 
-option csharp_namespace = "Messages";
+option csharp_namespace = "YonahChat.Grpc.Messages";
 
-message ChatEntry {
-    int32 id=1;
-    string chatEntryName=2;
+package yonahChat.Grpc;
+
+message ChatEntryListRequest{
+    int64 userID=1;
+}
+message ChatEntryListReply {
+	string chatEntryName=1;
+}
+
+service ChatEntryRPC {
+	rpc  SayChatEntry (ChatEntryListRequest) returns (ChatEntryListReply);
 }

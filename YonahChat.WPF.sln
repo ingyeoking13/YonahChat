@@ -17,11 +17,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.WPF.Styles", "Yon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.WPF.Modules.YonahMain", "YonahChat.WPF.Modules.YonahMain\YonahChat.WPF.Modules.YonahMain.csproj", "{08304494-BF41-4F14-8398-A4E9EB3CDE8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.WPF.Business", "YonahChat.WPF.Business\YonahChat.WPF.Business.csproj", "{00101D0E-E2FE-4BFB-878E-543C5528060B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YonahChat.WPF.Business", "YonahChat.WPF.Business\YonahChat.WPF.Business.csproj", "{00101D0E-E2FE-4BFB-878E-543C5528060B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.WPF.Services", "YonahChat.WPF.Services\YonahChat.WPF.Services.csproj", "{9E48CB39-BE8C-4995-92F2-CC36131708DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YonahChat.WPF.Services", "YonahChat.WPF.Services\YonahChat.WPF.Services.csproj", "{9E48CB39-BE8C-4995-92F2-CC36131708DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.WPF.Services.Interface", "YonahChat.WPF.Services.Interface\YonahChat.WPF.Services.Interface.csproj", "{F368C5F7-BCEB-478C-879D-7388551886A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YonahChat.WPF.Services.Interface", "YonahChat.WPF.Services.Interface\YonahChat.WPF.Services.Interface.csproj", "{F368C5F7-BCEB-478C-879D-7388551886A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.WPF.Repositories", "YonahChat.WPF.Repositories\YonahChat.WPF.Repositories.csproj", "{675CF27A-7267-4668-951C-74D7FCCFDCF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{F368C5F7-BCEB-478C-879D-7388551886A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F368C5F7-BCEB-478C-879D-7388551886A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F368C5F7-BCEB-478C-879D-7388551886A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{675CF27A-7267-4668-951C-74D7FCCFDCF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675CF27A-7267-4668-951C-74D7FCCFDCF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675CF27A-7267-4668-951C-74D7FCCFDCF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675CF27A-7267-4668-951C-74D7FCCFDCF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

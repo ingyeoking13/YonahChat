@@ -2,13 +2,20 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.Api.CommonProtos" Version="1.7.0" />
+    <PackageReference Include="Google.Protobuf" Version="3.11.3" />
     <PackageReference Include="Grpc" Version="2.27.0" />
+    <PackageReference Include="Grpc.Core" Version="2.27.0" />
+    <PackageReference Include="Grpc.Core.Api" Version="2.27.0" />
     <PackageReference Include="Prism.Core" Version="7.2.0.1422" />
     <PackageReference Include="Prism.Unity" Version="7.2.0.1422" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\YonahChat.Grpc.Mesages\YonahChat.Grpc.Mesages.csproj" />
+  </ItemGroup>
 </Project>

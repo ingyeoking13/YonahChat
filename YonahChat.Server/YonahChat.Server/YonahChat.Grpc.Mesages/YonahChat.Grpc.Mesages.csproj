@@ -6,7 +6,52 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ca.crt" />
+    <None Remove="ca.key" />
+    <None Remove="client.key" />
+    <None Remove="getncert.bat" />
+    <None Remove="server.crt" />
+    <None Remove="server.csr" />
+    <None Remove="server.key" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ca.crt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ca.key">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="client.key">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="getncert.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="server.crt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="server.csr">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="server.key">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Api.CommonProtos" Version="1.7.0" />
+    <PackageReference Include="Google.Protobuf" Version="3.11.3" />
     <PackageReference Include="Grpc" Version="2.27.0" />
+    <PackageReference Include="Grpc.Core" Version="2.27.0" />
+    <PackageReference Include="Grpc.Core.Api" Version="2.27.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.27.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Protobuf Include="pb/messages.proto" GrpcServices="Server" />
   </ItemGroup>
 
 </Project>

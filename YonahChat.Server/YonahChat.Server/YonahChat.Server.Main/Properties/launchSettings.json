@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "YonahChat.Server.Main": {
+      "commandName": "Project"
+    }
+  }
+}
