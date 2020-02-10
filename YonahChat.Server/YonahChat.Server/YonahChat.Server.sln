@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YonahChat.Server.Main", "Yo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YonahChat.Grpc.Mesages", "YonahChat.Grpc.Mesages\YonahChat.Grpc.Mesages.csproj", "{55D1FD47-99AF-48CD-9F97-09BEE6887391}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonahChat.Client.Main", "YonahChat.Client.Main\YonahChat.Client.Main.csproj", "{A22237DB-4666-4957-BD50-AA27C1A07EB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{55D1FD47-99AF-48CD-9F97-09BEE6887391}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55D1FD47-99AF-48CD-9F97-09BEE6887391}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55D1FD47-99AF-48CD-9F97-09BEE6887391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22237DB-4666-4957-BD50-AA27C1A07EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22237DB-4666-4957-BD50-AA27C1A07EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22237DB-4666-4957-BD50-AA27C1A07EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22237DB-4666-4957-BD50-AA27C1A07EB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,5 @@
-﻿using YonahChat.WPF.Repositories.Views;
-using Prism.Ioc;
+﻿using Prism.Ioc;
 using Prism.Modularity;
-using Prism.Regions;
 
 namespace YonahChat.WPF.Repositories
 {
@@ -9,12 +7,11 @@ namespace YonahChat.WPF.Repositories
     {
         public void OnInitialized(IContainerProvider containerProvider)
         {
- 
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            
+            containerRegistry.Register<IYonahChatRepository, YonahChatRepositoryTest>();
         }
     }
 }
