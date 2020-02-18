@@ -5,9 +5,10 @@
     xmlns:core="clr-namespace:YonahChat.WPF.Core;assembly=YonahChat.WPF.Core"
     xmlns:prism="http://prismlibrary.com/"
     Title="{Binding Title}"
-    Width="525"
-    Height="350"
-    prism:ViewModelLocator.AutoWireViewModel="True">
+    Width="860"
+    Height="550"
+    prism:ViewModelLocator.AutoWireViewModel="True"
+    WindowStartupLocation="CenterScreen">
     <Grid>
         <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.RootContentRegion}" />
     </Grid>

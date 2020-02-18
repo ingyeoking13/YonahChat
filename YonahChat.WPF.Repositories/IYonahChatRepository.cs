@@ -5,6 +5,6 @@ namespace YonahChat.WPF.Repositories
 {
     public interface IYonahChatRepository
     {
-        ChatEntry
+        List<ChatEntry> GetChatentryWithUserID(int id);
     }
 }

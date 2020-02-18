@@ -90,6 +90,10 @@
       <Project>{FE525DC4-F905-4BD5-9960-CDF3CC68DB64}</Project>
       <Name>YonahChat.WPF.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\YonahChat.WPF.Repositories\YonahChat.WPF.Repositories.csproj">
+      <Project>{675CF27A-7267-4668-951C-74D7FCCFDCF9}</Project>
+      <Name>YonahChat.WPF.Repositories</Name>
+    </ProjectReference>
     <ProjectReference Include="..\YonahChat.WPF.Services.Interface\YonahChat.WPF.Services.Interface.csproj">
       <Project>{F368C5F7-BCEB-478C-879D-7388551886A6}</Project>
       <Name>YonahChat.WPF.Services.Interface</Name>

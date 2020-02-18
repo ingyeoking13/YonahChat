@@ -5,6 +5,7 @@ using Prism.Regions;
 using YonahChat.WPF.Core;
 using YonahChat.WPF.Modules.YonahMain.Menus;
 using YonahChat.WPF.Modules.YonahMain.ViewModels;
+using YonahChat.WPF.Repositories;
 using YonahChat.WPF.Services;
 using YonahChat.WPF.Services.Interface;
 
@@ -25,7 +26,8 @@ namespace YonahChat.WPF.Modules.YonahMain
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            containerRegistry.RegisterInstance<IChatListService>(new ChatListServices());
+            containerRegistry.Register<IYonahChatRepository, YonahChatRepositoryTest>();
+            containerRegistry.Register<IChatListService, ChatListServices>();
             ViewModelLocationProvider.Register<ChatListTab, ChatListViewModel>();
         }
     }

@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\YonahChat.WPF.Business\YonahChat.WPF.Business.csproj" />
+    <ProjectReference Include="..\YonahChat.WPF.Repositories\YonahChat.WPF.Repositories.csproj" />
     <ProjectReference Include="..\YonahChat.WPF.Services.Interface\YonahChat.WPF.Services.Interface.csproj" />
   </ItemGroup>
 

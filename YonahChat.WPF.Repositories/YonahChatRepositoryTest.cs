@@ -7,12 +7,12 @@ namespace YonahChat.WPF.Repositories
     {
         public List<ChatEntry> GetChatentryWithUserID(int id)
         {
-
-        }
-
-        public YonahChatRepositoryTest( )
-        {
-
+            return new List<ChatEntry> {
+                new ChatEntry("HI, This Is First Chat Room"),
+                new ChatEntry("Good Night ..."),
+                new ChatEntry("Dude, This Room so funny."),
+                new ChatEntry("HAHAHA")
+            };
         }
     }
 }

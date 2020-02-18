@@ -112,6 +112,10 @@
       <Project>{3D7B5CB7-CA0D-4EC3-976A-192212B63A55}</Project>
       <Name>YonahChat.WPF.Modules.Login</Name>
     </ProjectReference>
+    <ProjectReference Include="..\YonahChat.WPF.Repositories\YonahChat.WPF.Repositories.csproj">
+      <Project>{675CF27A-7267-4668-951C-74D7FCCFDCF9}</Project>
+      <Name>YonahChat.WPF.Repositories</Name>
+    </ProjectReference>
     <ProjectReference Include="..\YonahChat.WPF.Styles\YonahChat.WPF.Styles\YonahChat.WPF.Styles.csproj">
       <Project>{428d88a4-2b5d-4420-9073-fa07de5da7fb}</Project>
       <Name>YonahChat.WPF.Styles</Name>
